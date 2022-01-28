@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+*{
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+h1{
+    padding: 50px;
+    cursor: pointer;
+}
+.boxes {
+  color: black;
+
+  padding: 40px 20px;
+  height: 450px;
+  width: 300px;
+  background-color: #1fa28e;
+  margin: 1px 50px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+.content{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: black;
+    position: relative;
+    background-color: #1fa28e;
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+#exampleSlider {
+  position: relative;
+  /*width: 800px;*/
+  border: 1px solid whitesmoke;
+
+  margin-top: -40px;
+  width: 1050px;
+  height: 450px;
+}
+@media (max-width: 575.25px) 
+{
+  #exampleSlider 
+  {
+    border-color: transparent;
+  }
+}
+#exampleSlider .MS-content {
+  margin: 15px 5%;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 1px solid whitesmoke;
+
+  
+  height: 400px;
+  
+  
+  
+}
+@media (max-width: 575.25px) {
+  #exampleSlider .MS-content {
+    margin: 0;
+  }
+}
+#exampleSlider .MS-content .item {
+  display: inline-block;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  vertical-align: top;
+  border: 1px solid white;
+  border-right: none;
+  width: 100%;
+}
+@media (max-width: 900px) 
+{
+  #exampleSlider .MS-content .item 
+  {
+    width: 30%;
+  }
+}
+@media (max-width: 744px) 
+{
+  #exampleSlider .MS-content .item 
+  {
+    width: 30%;
+  }
+}
+@media (max-width: 575.25px) {
+  #exampleSlider .MS-content .item {
+    width: 35%;
+  }
+}
+#exampleSlider .MS-content .item p {
+  font-size: 30px;
+  text-align: center;
+  line-height: 1;
+  vertical-align: middle;
+  margin: 0;
+  padding: 10px 0;
+}
+#exampleSlider .MS-content .item img{
+  /*height: 250px;*/
+  width: 50px;
+
+  margin-top: -9px;
+  height: 395px;
+}
+#exampleSlider .MS-controls button {
+  position: absolute;
+  border: none;
+  background: transparent;
+  font-size: 30px;
+  outline: 0;
+  top: 35px;
+}
+@media (max-width: 575.25px) {
+  #exampleSlider .MS-controls button {
+    display: none;
+  }
+}
+#exampleSlider .MS-controls button:hover {
+  cursor: pointer;
+}
+#exampleSlider .MS-controls .MS-left {
+  left: 10px;
+}
+@media (max-width: 744px) {
+  #exampleSlider .MS-controls .MS-left {
+    left: -2px;
+  }
+}
+#exampleSlider .MS-controls .MS-right {
+  right: 10px;
+}
+@media (max-width: 744px) {
+  #exampleSlider .MS-controls .MS-right {
+    right: -2px;
+  }
+}
+
+.slider1 {
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.slider2 {
+  position: absolute;
+  top: 750px;
+  left: 400px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#exampleSlider1 {
+  position: relative;
+  /*width: 800px;*/
+  border: 1px solid whitesmoke;
+
+  margin-top: -40px;
+  width: 1050px;
+  height: 450px;
+}
+@media (max-width: 575.25px) 
+{
+  #exampleSlider1 
+  {
+    border-color: transparent;
+  }
+}
+#exampleSlider1 .MS-content {
+  margin: 15px 5%;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 1px solid whitesmoke;
+
+  height: 400px;
+}
+@media (max-width: 575.25px) {
+  #exampleSlider1 .MS-content {
+    margin: 0;
+  }
+}
+#exampleSlider1 .MS-content .item {
+  display: inline-block;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  vertical-align: top;
+  border: 1px solid white;
+  border-right: none;
+  width: 100%;
+}
+@media (max-width: 900px) 
+{
+  #exampleSlider1 .MS-content .item 
+  {
+    width: 30%;
+  }
+}
+@media (max-width: 744px) 
+{
+  #exampleSlider1 .MS-content .item 
+  {
+    width: 30%;
+  }
+}
+@media (max-width: 575.25px) {
+  #exampleSlider1 .MS-content .item {
+    width: 35%;
+  }
+}
+#exampleSlider1 .MS-content .item p {
+  font-size: 30px;
+  text-align: center;
+  line-height: 1;
+  vertical-align: middle;
+  margin: 0;
+  padding: 10px 0;
+}
+#exampleSlider1 .MS-content .item img{
+  
+  width: 50px;
+
+  margin-top: -9px;
+  height: 395px;
+}
+#exampleSlider1 .MS-controls button {
+  position: absolute;
+  border: none;
+  background: transparent;
+  font-size: 30px;
+  outline: 0;
+  top: 35px;
+}
+@media (max-width: 575.25px) {
+  #exampleSlider1 .MS-controls button {
+    display: none;
+  }
+}
+#exampleSlider1 .MS-controls button:hover {
+  cursor: pointer;
+}
+#exampleSlider1 .MS-controls .MS-left {
+  left: 10px;
+}
+@media (max-width: 744px) {
+  #exampleSlider1 .MS-controls .MS-left {
+    left: -2px;
+  }
+}
+#exampleSlider1 .MS-controls .MS-right {
+  right: 10px;
+}
+@media (max-width: 744px) {
+  #exampleSlider1 .MS-controls .MS-right {
+    right: -2px;
+  }
+}
+.slider3 {
+  position: absolute;
+  top: 1250px;
+  left: 400px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#exampleSlider2 {
+  position: relative;
+  border: 1px solid whitesmoke;
+
+  margin-top: -40px;
+  width: 1050px;
+  height: 450px;
+}
+@media (max-width: 575.25px) 
+{
+  #exampleSlider2 
+  {
+    border-color: transparent;
+  }
+}
+#exampleSlider2 .MS-content {
+  margin: 15px 5%;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 1px solid whitesmoke;
+
+  height: 400px;
+}
+@media (max-width: 575.25px) {
+  #exampleSlider2 .MS-content {
+    margin: 0;
+  }
+}
+#exampleSlider2 .MS-content .item {
+  display: inline-block;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  vertical-align: top;
+  border: 1px solid white;
+  border-right: none;
+  width: 100%;
+}
+@media (max-width: 900px) 
+{
+  #exampleSlider2 .MS-content .item 
+  {
+    width: 30%;
+  }
+}
+@media (max-width: 744px) 
+{
+  #exampleSlider2 .MS-content .item 
+  {
+    width: 30%;
+  }
+}
+@media (max-width: 575.25px) {
+  #exampleSlider2 .MS-content .item {
+    width: 35%;
+  }
+}
+#exampleSlider2 .MS-content .item p {
+  font-size: 30px;
+  text-align: center;
+  line-height: 1;
+  vertical-align: middle;
+  margin: 0;
+  padding: 10px 0;
+}
+#exampleSlider2 .MS-content .item img{
+  
+  width: 50px;
+
+  margin-top: -9px;
+  height: 395px;
+}
+#exampleSlider2 .MS-controls button {
+  position: absolute;
+  border: none;
+  background: transparent;
+  font-size: 30px;
+  outline: 0;
+  top: 35px;
+}
+@media (max-width: 575.25px) {
+  #exampleSlider2 .MS-controls button {
+    display: none;
+  }
+}
+#exampleSlider2 .MS-controls button:hover {
+  cursor: pointer;
+}
+#exampleSlider2 .MS-controls .MS-left {
+  left: 10px;
+}
+@media (max-width: 744px) {
+  #exampleSlider2 .MS-controls .MS-left {
+    left: -2px;
+  }
+}
+#exampleSlider2 .MS-controls .MS-right {
+  right: 10px;
+}
+@media (max-width: 744px) {
+  #exampleSlider1 .MS-controls .MS-right {
+    right: -2px;
+  }
+}
+.slider4 {
+  position: absolute;
+  top: 1750px;
+  left: 400px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#exampleSlider3 {
+  position: relative;
+  border: 1px solid whitesmoke;
+
+  margin-top: -40px;
+  width: 1050px;
+  height: 450px;
+}
+@media (max-width: 575.25px) 
+{
+  #exampleSlider3 
+  {
+    border-color: transparent;
+  }
+}
+#exampleSlider3 .MS-content {
+  margin: 15px 5%;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 1px solid whitesmoke;
+
+  height: 400px;
+}
+@media (max-width: 575.25px) {
+  #exampleSlider3 .MS-content {
+    margin: 0;
+  }
+}
+#exampleSlider3 .MS-content .item {
+  display: inline-block;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  vertical-align: top;
+  border: 1px solid white;
+  border-right: none;
+  width: 100%;
+}
+@media (max-width: 900px) 
+{
+  #exampleSlider3 .MS-content .item 
+  {
+    width: 30%;
+  }
+}
+@media (max-width: 744px) 
+{
+  #exampleSlider3 .MS-content .item 
+  {
+    width: 30%;
+  }
+}
+@media (max-width: 575.25px) {
+  #exampleSlider3 .MS-content .item {
+    width: 35%;
+  }
+}
+#exampleSlider3 .MS-content .item p {
+  font-size: 30px;
+  text-align: center;
+  line-height: 1;
+  vertical-align: middle;
+  margin: 0;
+  padding: 10px 0;
+}
+#exampleSlider3 .MS-content .item img{
+  
+  width: 50px;
+
+  margin-top: -9px;
+  height: 395px;
+}
+#exampleSlider3 .MS-controls button {
+  position: absolute;
+  border: none;
+  background: transparent;
+  font-size: 30px;
+  outline: 0;
+  top: 35px;
+}
+@media (max-width: 575.25px) {
+  #exampleSlider3 .MS-controls button {
+    display: none;
+  }
+}
+#exampleSlider3 .MS-controls button:hover {
+  cursor: pointer;
+}
+#exampleSlider3 .MS-controls .MS-left {
+  left: 10px;
+}
+@media (max-width: 744px) {
+  #exampleSlider3 .MS-controls .MS-left {
+    left: -2px;
+  }
+}
+#exampleSlider3 .MS-controls .MS-right {
+  right: 10px;
+}
+@media (max-width: 744px) {
+  #exampleSlider3 .MS-controls .MS-right {
+    right: -2px;
+  }
+}
+.slider5 {
+  position: absolute;
+  top: 2250px;
+  left: 400px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#exampleSlider4 {
+  position: relative;
+  border: 1px solid whitesmoke;
+
+  margin-top: -40px;
+  width: 1050px;
+  height: 450px;
+}
+@media (max-width: 575.25px) 
+{
+  #exampleSlider4 
+  {
+    border-color: transparent;
+  }
+}
+#exampleSlider4 .MS-content {
+  margin: 15px 5%;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 1px solid whitesmoke;
+
+  height: 400px;
+}
+@media (max-width: 575.25px) {
+  #exampleSlider4 .MS-content {
+    margin: 0;
+  }
+}
+#exampleSlider4 .MS-content .item {
+  display: inline-block;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  vertical-align: top;
+  border: 1px solid white;
+  border-right: none;
+  width: 100%;
+}
+@media (max-width: 900px) 
+{
+  #exampleSlider4 .MS-content .item 
+  {
+    width: 30%;
+  }
+}
+@media (max-width: 744px) 
+{
+  #exampleSlider4 .MS-content .item 
+  {
+    width: 30%;
+  }
+}
+@media (max-width: 575.25px) {
+  #exampleSlider4 .MS-content .item {
+    width: 35%;
+  }
+}
+#exampleSlider4 .MS-content .item p {
+  font-size: 30px;
+  text-align: center;
+  line-height: 1;
+  vertical-align: middle;
+  margin: 0;
+  padding: 10px 0;
+}
+#exampleSlider4 .MS-content .item img{
+  
+  width: 50px;
+
+  margin-top: -9px;
+  height: 395px;
+}
+#exampleSlider4 .MS-controls button {
+  position: absolute;
+  border: none;
+  background: transparent;
+  font-size: 30px;
+  outline: 0;
+  top: 35px;
+}
+@media (max-width: 575.25px) {
+  #exampleSlider4 .MS-controls button {
+    display: none;
+  }
+}
+#exampleSlider4 .MS-controls button:hover {
+  cursor: pointer;
+}
+#exampleSlider4 .MS-controls .MS-left {
+  left: 10px;
+}
+@media (max-width: 744px) {
+  #exampleSlider4 .MS-controls .MS-left {
+    left: -2px;
+  }
+}
+#exampleSlider4 .MS-controls .MS-right {
+  right: 10px;
+}
+@media (max-width: 744px) {
+  #exampleSlider4 .MS-controls .MS-right {
+    right: -2px;
+  }
+}
+
+
